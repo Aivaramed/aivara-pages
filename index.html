@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071b37" />
+    <meta name="description" content="AivaraSuite 核医学精准诊疗软件：影像查看、配准融合、分割、定量及临床复核与报告。" />
+    <title>AivaraSuite | 核医学精准诊疗软件</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23071b37'/%3E%3Cpath d='M10 48 29 13h11l14 35H42l-3-9H23l-5 9H10Zm17-18h9l-4-12-5 12Z' fill='%232fc9ef'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">跳转至内容</a>
+    <header class="site-header">
+      <div class="container nav-inner">
+        <a class="brand" href="#top" aria-label="Aivara home"><span class="brand-mark">A</span><span>Aivara<span class="brand-dot">.</span></span></a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="#suite" data-i18n="navSuite">套件</a>
+          <a href="#solutions" data-i18n="navSolutions">产品</a>
+        </nav>
+        <div class="language-switch" role="group" aria-label="Language / 语言">
+          <button type="button" data-lang="zh" class="active" aria-pressed="true">中文</button>
+          <span aria-hidden="true"></span>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span>AIVARA SUITE</div>
+            <h1 id="hero-title" data-i18n="heroTitle">让核医学影像分析<br /><em>更加清晰、连贯</em></h1>
+            <p data-i18n="heroBody">从影像查看与融合，到分割、定量及临床复核，AivaraSuite 将核医学分析工作流程汇于一处。</p>
+            <a class="hero-link" href="#suite"><span data-i18n="exploreSuite">了解 AivaraSuite</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-visual" aria-label="Aivara product families">
+            <div class="product-tile tile-onco"><img src="./assets/AivaraOnco_row1_with_text.webp" alt="AivaraOnco" width="340" height="340" /></div>
+            <div class="product-tile tile-dose"><img src="./assets/AivaraDosimetry_row1_with_text.webp" alt="AivaraDosimetry" width="340" height="340" /></div>
+            <div class="product-tile tile-cardio"><img src="./assets/AivaraCardio_row1_with_text.webp" alt="AivaraCardio" width="340" height="340" /></div>
+            <div class="product-tile tile-neuro"><img src="./assets/AivaraNeuro_row1_with_text.webp" alt="AivaraNeuro" width="340" height="340" /></div>
+            <div class="product-tile tile-bio"><img src="./assets/AivaraBio_row1_with_text.webp" alt="AivaraBio" width="340" height="340" /></div>
+          </div>
+        </div>
+        <div class="hero-bottom container"><span data-i18n="heroBottom">精密影像 · 连贯分析</span><span aria-hidden="true">01 / 03</span></div>
+      </section>
+
+      <section class="suite-section section-space" id="suite" aria-labelledby="suite-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="kicker" data-i18n="suiteKicker">统一工作流程</p>
+              <h2 id="suite-title">Aivara<span>Suite</span></h2>
+            </div>
+            <p class="section-intro" data-i18n="suiteIntro">围绕核医学影像的关键环节，连接阅片、配准融合、分割、定量与临床复核报告。</p>
+          </div>
+          <div class="suite-image-frame">
+            <img id="suite-image" src="./assets/All Suite_中文.webp" alt="AivaraSuite 软件套件概览" width="1672" height="941" loading="lazy" />
+          </div>
+          <ol class="workflow" aria-label="AivaraSuite workflow">
+            <li><span>01</span><strong data-i18n="step1">影像查看</strong></li>
+            <li><span>02</span><strong data-i18n="step2">配准与融合</strong></li>
+            <li><span>03</span><strong data-i18n="step3">分割</strong></li>
+            <li><span>04</span><strong data-i18n="step4">定量</strong></li>
+            <li><span>05</span><strong data-i18n="step5">临床复核与报告</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="solutions-section section-space" id="solutions" aria-labelledby="solutions-title">
+        <div class="container">
+          <div class="section-heading solutions-heading">
+            <div>
+              <p class="kicker" data-i18n="solutionsKicker">应用方向</p>
+              <h2 id="solutions-title" data-i18n="solutionsTitle">面向不同临床场景的分析模块</h2>
+            </div>
+            <p class="section-intro" data-i18n="solutionsIntro">查看每个模块的影像示例与主要分析环节。</p>
+          </div>
+          <div class="solution-tabs" role="tablist" aria-label="Aivara products">
+            <button type="button" class="solution-tab active" data-product="onco" role="tab" aria-selected="true" aria-controls="product-panel"><span class="tab-number">01</span><span>Onco</span></button>
+            <button type="button" class="solution-tab" data-product="dose" role="tab" aria-selected="false" aria-controls="product-panel"><span class="tab-number">02</span><span>Dosimetry</span></button>
+            <button type="button" class="solution-tab" data-product="cardio" role="tab" aria-selected="false" aria-controls="product-panel"><span class="tab-number">03</span><span>Cardio</span></button>
+            <button type="button" class="solution-tab" data-product="neuro" role="tab" aria-selected="false" aria-controls="product-panel"><span class="tab-number">04</span><span>Neuro</span></button>
+          </div>
+          <div class="product-panel" id="product-panel" role="tabpanel" aria-live="polite">
+            <div class="product-info">
+              <p class="product-index">AIVARA / <span id="product-index">01</span></p>
+              <h3 id="product-title">Aivara<span>Onco</span></h3>
+              <p id="product-summary">多示踪剂影像融合、病灶定量与纵向随访。</p>
+              <ul id="product-features"></ul>
+            </div>
+            <div class="product-image-wrap"><img id="product-image" src="./assets/AivaraOnco_中文.webp" alt="AivaraOnco 影像分析示例" width="1672" height="941" loading="lazy" /></div>
+          </div>
+          <div class="bio-note"><img src="./assets/AivaraBio_row1_with_text.webp" alt="AivaraBio" width="340" height="340" loading="lazy" /><span data-i18n="bioNote">Aivara 产品家族还包括 AivaraBio。</span></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner"><span class="footer-brand">Aivara<span>.</span></span><span data-i18n="footerText">核医学精准诊疗软件</span><a href="#top" data-i18n="backTop">返回顶部 ↑</a></div>
+    </footer>
+  </body>
+</html>
