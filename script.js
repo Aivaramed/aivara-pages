@@ -7,7 +7,7 @@ const translations = {
     suiteIntro: '围绕核医学影像的关键环节，连接阅片、配准融合、分割、定量与临床复核报告。',
     step1: '影像查看', step2: '配准与融合', step3: '分割', step4: '定量', step5: '临床复核与报告',
     solutionsKicker: '应用方向', solutionsTitle: '面向不同临床场景的分析模块', solutionsIntro: '查看每个模块的影像示例与主要分析环节。',
-    bioNote: 'Aivara 产品家族还包括 AivaraBio。', footerText: '核医学精准诊疗软件', backTop: '返回顶部 ↑',
+    footerText: '核医学精准诊疗软件', backTop: '返回顶部 ↑',
     suiteAlt: 'AivaraSuite 软件套件概览', productAlt: (name) => `${name} 影像分析示例`
   },
   en: {
@@ -18,7 +18,7 @@ const translations = {
     suiteIntro: 'AivaraSuite connects the key steps in nuclear medicine imaging: viewing, registration and fusion, segmentation, quantification, and clinical review and reporting.',
     step1: 'Image viewing', step2: 'Registration & fusion', step3: 'Segmentation', step4: 'Quantification', step5: 'Clinical review & report',
     solutionsKicker: 'Applications', solutionsTitle: 'Analysis for distinct clinical contexts', solutionsIntro: 'Explore imaging examples and the main analysis steps for each module.',
-    bioNote: 'The Aivara family also includes AivaraBio.', footerText: 'Precision nuclear medicine software', backTop: 'Back to top ↑',
+    footerText: 'Precision nuclear medicine software', backTop: 'Back to top ↑',
     suiteAlt: 'Overview of the AivaraSuite software suite', productAlt: (name) => `${name} imaging analysis example`
   }
 };

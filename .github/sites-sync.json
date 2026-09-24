@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "project_id": "appgprj_6ab3a915d028819192f02357c02a8f72",
+  "source_commit": "ca3c3a6bf653d22cfedfd45cd7fec491f063a952",
+  "managed_files": [
+    "assets/AivaraBio_row1_with_text.webp",
+    "assets/AivaraCardio_English.webp",
+    "assets/AivaraCardio_row1_with_text.webp",
+    "assets/AivaraCardio_中文.webp",
+    "assets/AivaraDosimetry_English.webp",
+    "assets/AivaraDosimetry_row1_with_text.webp",
+    "assets/AivaraDosimetry_中文.webp",
+    "assets/AivaraNeuro_English.webp",
+    "assets/AivaraNeuro_row1_with_text.webp",
+    "assets/AivaraNeuro_中文.webp",
+    "assets/AivaraOnco_English.webp",
+    "assets/AivaraOnco_row1_with_text.webp",
+    "assets/AivaraOnco_中文.webp",
+    "assets/All Suite_English.webp",
+    "assets/All Suite_中文.webp",
+    "assets/aivara-logo.png",
+    "index.html",
+    "script.js",
+    "styles.css"
+  ]
+}
