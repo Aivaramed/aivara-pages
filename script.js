@@ -1,6 +1,6 @@
 const translations = {
   zh: {
-    assistantNav: 'AI 助手', assistantTitle: 'Aivara AI 助手', assistantDescription: '公网连接配置中 · 查看状态',
+    assistantNav: 'AI 助手', assistantTitle: '与 Aivara 对话', assistantDescription: '您的专属 AI 助手',
     title: 'AivaraSuite | 核医学精准诊疗软件', description: 'AivaraSuite 核医学精准诊疗软件：影像查看、配准融合、分割、定量及临床复核与报告。',
     skip: '跳转至内容', navSuite: '套件', navSolutions: '产品', heroTitle: '让核医学影像分析<br><em>更加清晰、连贯</em>',
     heroBody: '从影像查看与融合，到分割、定量及临床复核，AivaraSuite 将核医学分析工作流程汇于一处。',
@@ -12,7 +12,7 @@ const translations = {
     suiteAlt: 'AivaraSuite 软件套件概览', productAlt: (name) => `${name} 影像分析示例`
   },
   en: {
-    assistantNav: 'AI Assistant', assistantTitle: 'Aivara Assistant', assistantDescription: 'Public connection in setup · View status',
+    assistantNav: 'AI Assistant', assistantTitle: 'Talk to Aivara', assistantDescription: 'Your personal AI workspace',
     title: 'AivaraSuite | Precision Nuclear Medicine Software', description: 'AivaraSuite connects image viewing, registration and fusion, segmentation, quantification, and clinical review and reporting.',
     skip: 'Skip to content', navSuite: 'Suite', navSolutions: 'Solutions', heroTitle: 'Nuclear medicine,<br><em>clearly connected</em>',
     heroBody: 'From image viewing and fusion to segmentation, quantification, and clinical review, AivaraSuite brings the analysis workflow together.',
