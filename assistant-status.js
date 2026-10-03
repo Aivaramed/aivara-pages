@@ -1,6 +1,6 @@
 const statusCopy = {
-  zh: {status:'聊天站点已连接', body:'AI 助手已连接。您现在可以通过专属界面登录并与我们服务器上的 Qwen 模型对话。', scope:'专属域名 chat.aivaramed.com 配置完成前，请使用下方的聊天链接。疗诊一体化智能体尚未开放。', notice:'请勿提交可识别患者身份的信息。AI 输出需由专业人员复核。', home:'返回 Aivara 首页', try:'打开 AI 助手'},
-  en: {status:'Chat connection ready', body:'The Assistant is connected. Sign in to the custom workspace to chat with Qwen running on our server.', scope:'Use the chat link below while chat.aivaramed.com finishes setup. The theranostics agent is not enabled yet.', notice:'Do not submit identifiable patient information. AI outputs require professional review.', home:'Back to Aivara', try:'Open AI Assistant'}
+  zh: {status:'聊天站点已连接', body:'AI 助手已连接。您现在可以通过专属界面登录并与我们服务器上的 Qwen 模型对话。', scope:'请使用现有账户登录。疗诊一体化智能体尚未开放。', notice:'请勿提交可识别患者身份的信息。AI 输出需由专业人员复核。', home:'返回 Aivara 首页', try:'打开 AI 助手'},
+  en: {status:'Chat connection ready', body:'The Assistant is connected. Sign in to the custom workspace to chat with Qwen running on our server.', scope:'Sign in with your existing account. The theranostics agent is not enabled yet.', notice:'Do not submit identifiable patient information. AI outputs require professional review.', home:'Back to Aivara', try:'Open AI Assistant'}
 };
 function showStatusLanguage(language) {
   document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en';
