@@ -8,6 +8,7 @@
     <title>AivaraSuite | 核医学精准诊疗软件</title>
     <link rel="icon" type="image/png" href="./assets/aivara-logo.png" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./assistant.css" />
     <script src="./script.js" defer></script>
   </head>
   <body>
@@ -19,6 +20,7 @@
           <a href="#suite" data-i18n="navSuite">套件</a>
           <a href="#solutions" data-i18n="navSolutions">产品</a>
         </nav>
+        <a class="assistant-nav" href="./assistant.html" data-i18n="assistantNav">AI 助手</a>
         <div class="language-switch" role="group" aria-label="Language / 语言">
           <button type="button" data-lang="zh" class="active" aria-pressed="true">中文</button>
           <span aria-hidden="true"></span>
@@ -35,7 +37,10 @@
             <div class="eyebrow"><span class="eyebrow-line"></span>AIVARA SUITE</div>
             <h1 id="hero-title" data-i18n="heroTitle">让核医学影像分析<br /><em>更加清晰、连贯</em></h1>
             <p data-i18n="heroBody">从影像查看与融合，到分割、定量及临床复核，AivaraSuite 将核医学分析工作流程汇于一处。</p>
-            <a class="hero-link" href="#suite"><span data-i18n="exploreSuite">了解 AivaraSuite</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+            <div class="hero-actions">
+              <a class="assistant-cta" href="./assistant.html"><span class="assistant-symbol" aria-hidden="true">Ai</span><span><strong data-i18n="assistantTitle">Aivara AI 助手</strong><small data-i18n="assistantDescription">公网连接配置中 · 查看状态</small></span></a>
+              <a class="hero-link" href="#suite"><span data-i18n="exploreSuite">了解 AivaraSuite</span><span class="link-arrow" aria-hidden="true">↗</span></a>
+            </div>
           </div>
           <div class="hero-visual" aria-label="Aivara product families">
             <div class="product-tile tile-onco"><img src="./assets/AivaraOnco_row1_with_text.webp" alt="AivaraOnco" width="340" height="340" /></div>

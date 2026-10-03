@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "appgprj_6ab3a915d028819192f02357c02a8f72",
-  "source_commit": "ca3c3a6bf653d22cfedfd45cd7fec491f063a952",
+  "source_commit": "481cf33a10e11b9d16dbb2f3a89175a9b729204f",
   "managed_files": [
     "assets/AivaraBio_row1_with_text.webp",
     "assets/AivaraCardio_English.webp",
@@ -19,6 +19,9 @@
     "assets/All Suite_English.webp",
     "assets/All Suite_中文.webp",
     "assets/aivara-logo.png",
+    "assistant-status.js",
+    "assistant.css",
+    "assistant.html",
     "index.html",
     "script.js",
     "styles.css"

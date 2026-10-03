@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071b37" />
+  <meta name="description" content="Aivara Assistant — public connection status." />
+  <title>Aivara Assistant | 连接状态</title>
+  <link rel="icon" type="image/png" href="./assets/aivara-logo.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./assistant.css" />
+  <script src="./assistant-status.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav-inner">
+    <a class="brand" href="./" aria-label="Aivara home"><img class="brand-logo" src="./assets/aivara-logo.png" alt="" width="1444" height="1089" /><span>Aivara<span class="brand-dot">.</span></span></a>
+    <div class="language-switch" role="group" aria-label="Language / 语言"><button type="button" data-lang="zh" class="active" aria-pressed="true">中文</button><span aria-hidden="true"></span><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+  </div></header>
+  <main class="assistant-status">
+    <span class="status-label" data-copy="status">公网连接配置中</span>
+    <h1>Aivara Assistant</h1>
+    <p data-copy="body">AI 助手已在本地服务器运行。公网连接尚未完成，因此目前还不能通过本站开始对话。</p>
+    <p data-copy="scope">连接完成后，您将通过专属界面登录并与我们服务器上的 Qwen 模型对话。疗诊一体化智能体尚未开放。</p>
+    <p class="status-note" data-copy="notice">请勿提交可识别患者身份的信息。AI 输出需由专业人员复核。</p>
+    <div class="status-links"><a href="./" data-copy="home">返回 Aivara 首页</a><a href="https://chat.aivaramed.com" data-copy="try">检查聊天站点（可能尚未可用）</a></div>
+  </main>
+</body>
+</html>
