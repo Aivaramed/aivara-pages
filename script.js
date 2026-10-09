@@ -1,20 +1,22 @@
 const translations = {
   zh: {
+    homeLabel: 'Aivara 首页', navLabel: '主导航', workflowLabel: 'AivaraSuite 影像分析流程', productsLabel: 'Aivara 产品模块',
     assistantNav: 'AivaraAgent', assistantTitle: '与 AivaraAgent 对话', assistantDescription: '您的专属智能工作空间',
-    openBio: '打开 AivaraBio', suiteBioLink: '在 AivaraBio 中上传并查看三维结构', bioKicker: '交互式研究工具',
-    bioDescription: '在浏览器中准备蛋白结构预测与设计任务，查看状态、结构与结果。连接 AlphaFold 3 与 BindCraft，使用现有 Aivara 账号登录。',
+    openBio: '打开 AivaraBio', suiteBioLink: '在 AivaraBio 中上传文件并查看三维结构', bioKicker: '交互式研究工具',
+    bioDescription: '在浏览器中准备蛋白质结构预测与设计任务，查看状态、结构与结果。连接 AlphaFold 3 与 BindCraft，使用现有 Aivara 账户登录。',
     bioNote: '仅供研究使用。任务由用户明确提交，结果需专业复核。',
-    title: 'AivaraSuite | 影像分析与分子研究', description: 'AivaraSuite 连接核医学影像分析与分子研究：影像查看、定量、临床复核、蛋白结构可视化、预测与设计。',
+    title: 'AivaraSuite | 影像分析与分子研究', description: 'AivaraSuite 连接核医学影像分析与分子研究：影像查看、定量、临床复核、蛋白质结构可视化、预测与设计。',
     skip: '跳转至内容', navSuite: '套件', navSolutions: '产品', heroTitle: '让核医学影像分析<br><em>更加清晰、连贯</em>',
-    heroBody: '从核医学影像分析到蛋白结构可视化、预测与设计，AivaraSuite 连接临床分析与分子研究。',
-    exploreSuite: '了解 AivaraSuite', heroBottom: '精密影像 · 连贯分析', suiteKicker: '统一工作流程',
-    suiteIntro: 'Onco、Dosimetry、Cardio、Neuro 与 Bio：将影像查看、定量与临床复核连接到蛋白结构可视化、预测与设计。',
+    heroBody: '从核医学影像分析到蛋白质结构可视化、预测与设计，AivaraSuite 连接临床分析与分子研究。',
+    exploreSuite: '了解 AivaraSuite', heroBottom: '精准影像 · 协同分析', suiteKicker: '统一工作流程',
+    suiteIntro: '整合 AivaraOnco、AivaraDosimetry、AivaraCardio、AivaraNeuro 与 AivaraBio，覆盖核医学影像分析与蛋白质结构研究。',
     step1: '影像查看', step2: '配准与融合', step3: '分割', step4: '定量', step5: '临床复核与报告',
-    solutionsKicker: '应用方向', solutionsTitle: '面向临床分析与分子研究的套件模块', solutionsIntro: '查看五个模块的影像与结构示例，以及各自的主要工作流程。',
+    solutionsKicker: '应用方向', solutionsTitle: '面向临床分析与分子研究的产品模块', solutionsIntro: '查看五个模块的影像与结构示例，以及各自的主要工作流程。',
     footerText: '影像分析与分子研究软件', backTop: '返回顶部 ↑',
-    suiteAlt: 'AivaraSuite 五个模块：Onco、Dosimetry、Cardio、Neuro、Bio', productAlt: (name) => `${name} 影像分析示例`
+    suiteAlt: 'AivaraSuite 五个模块：AivaraOnco、AivaraDosimetry、AivaraCardio、AivaraNeuro、AivaraBio', productAlt: (name) => `${name} 影像分析示例`
   },
   en: {
+    homeLabel: 'Aivara home', navLabel: 'Primary navigation', workflowLabel: 'AivaraSuite imaging workflow', productsLabel: 'Aivara products',
     assistantNav: 'AivaraAgent', assistantTitle: 'Talk to AivaraAgent', assistantDescription: 'Your private intelligent workspace',
     openBio: 'Open AivaraBio', suiteBioLink: 'Upload and explore 3D structures in AivaraBio', bioKicker: 'Interactive research tools',
     bioDescription: 'Prepare protein structure prediction and design jobs in your browser, then explore status, structures and results. Connect to AlphaFold 3 and BindCraft with your existing Aivara account.',
@@ -36,7 +38,7 @@ const products = {
   dose: { name: 'Dosimetry', index: '02', accent: '#a947e9', file: 'AivaraDosimetry', zh: { summary: '连接多时间点影像处理与吸收剂量评估。', features: ['多时间点影像配准', '器官与靶区分割及临床复核', '时间-活度曲线、吸收剂量与报告'] }, en: { summary: 'From multi-timepoint imaging to absorbed dose assessment.', features: ['Multi-timepoint image registration', 'Organ and target segmentation with clinician review', 'Time–activity curves, absorbed dose, and reporting'] } },
   cardio: { name: 'Cardio', index: '03', accent: '#ed433a', file: 'AivaraCardio', zh: { summary: '面向心血管影像的分割、摄取评估与区域定量。', features: ['主动脉辅助分割', '血管摄取评估', '全主动脉及区域定量分析'] }, en: { summary: 'Segmentation, uptake assessment, and regional quantification for cardiovascular imaging.', features: ['Assisted aortic segmentation', 'Vascular uptake assessment', 'Whole-aorta and regional quantification'] } },
   neuro: { name: 'Neuro', index: '04', accent: '#17a9bc', file: 'AivaraNeuro', zh: { summary: '融合 PET/MR 影像，支持脑区分割与参考区定量。', features: ['PET/MR 三平面融合', '脑区自动分割', 'SUVR 参考区定量与三维皮层分区'] }, en: { summary: 'PET/MR fusion, brain segmentation, and reference-region quantification.', features: ['PET/MR tri-modal fusion', 'Brain region segmentation', 'SUVR reference-region analysis and 3D cortical parcellation'] } },
-  bio: { name: 'Bio', index: '05', accent: '#159451', image: 'aivara-bio-structure.svg', zh: { summary: '上传 PDB / mmCIF，查看交互式三维结构，开展蛋白结构预测与设计。', features: ['蛋白与分子结构的旋转、缩放与链分析', 'AlphaFold 3 结构预测与 BindCraft 设计', '任务状态、结构与结果导出；使用现有 Aivara 账号'] }, en: { summary: 'Upload PDB / mmCIF files, explore interactive 3D structures, and work on protein prediction and design.', features: ['Rotate, zoom and explore molecular structures and chains', 'AlphaFold 3 prediction and BindCraft design', 'Job status, structures and result exports with your Aivara account'] } }
+  bio: { name: 'Bio', index: '05', accent: '#159451', image: 'aivara-bio-structure.svg', zh: { summary: '上传 PDB 或 mmCIF 结构文件，即可在浏览器中交互式查看三维分子结构，并进行蛋白质结构预测与设计。', features: ['旋转、缩放三维结构，查看分子链信息', 'AlphaFold 3 蛋白质结构预测与 BindCraft 蛋白质设计', '查看任务进度，导出结构与结果；使用现有 Aivara 账户登录'] }, en: { summary: 'Upload PDB / mmCIF files, explore interactive 3D structures, and work on protein prediction and design.', features: ['Rotate, zoom and explore molecular structures and chains', 'AlphaFold 3 prediction and BindCraft design', 'Job status, structures and result exports with your Aivara account'] } }
 };
 
 let language = localStorage.getItem('aivara-language') === 'en' ? 'en' : 'zh';
@@ -60,7 +62,7 @@ function renderProduct() {
   image.height = product.image ? 670 : 941;
   document.getElementById('product-logo').hidden = activeProduct !== 'bio';
   document.getElementById('product-open').hidden = activeProduct !== 'bio';
-  image.alt = activeProduct === 'bio' ? (language === 'zh' ? 'AivaraBio 蛋白三维结构示例' : 'AivaraBio 3D protein structure example') : translations[language].productAlt(`Aivara${product.name}`);
+  image.alt = activeProduct === 'bio' ? (language === 'zh' ? 'AivaraBio 蛋白质三维结构示例' : 'AivaraBio 3D protein structure example') : translations[language].productAlt(`Aivara${product.name}`);
   document.querySelectorAll('.solution-tab').forEach((button) => {
     const selected = button.dataset.product === activeProduct;
     button.classList.toggle('active', selected);
@@ -76,6 +78,9 @@ function renderLanguage() {
   document.querySelector('meta[name="description"]').content = copy.description;
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     element.innerHTML = copy[element.dataset.i18n];
+  });
+  document.querySelectorAll('[data-i18n-aria]').forEach((element) => {
+    element.setAttribute('aria-label', copy[element.dataset.i18nAria]);
   });
   document.getElementById('suite-image').src = `./assets/AivaraSuite_${language === 'zh' ? '中文' : 'English'}.svg`;
   document.getElementById('suite-image').alt = copy.suiteAlt;
