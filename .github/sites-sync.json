@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project_id": "appgprj_6ab3a915d028819192f02357c02a8f72",
-  "source_commit": "56b60c90b15436b3f44590065b382edfb5aa61e4",
+  "source_commit": "6ab4d929eaa80145b5eb524e5b7206c026058236",
   "managed_files": [
     "assets/AivaraBio_row1_with_text.webp",
     "assets/AivaraCardio_English.webp",
@@ -16,8 +16,13 @@
     "assets/AivaraOnco_English.webp",
     "assets/AivaraOnco_row1_with_text.webp",
     "assets/AivaraOnco_中文.webp",
+    "assets/AivaraSuite_English.svg",
+    "assets/AivaraSuite_中文.svg",
     "assets/All Suite_English.webp",
     "assets/All Suite_中文.webp",
+    "assets/aivara-bio-logo.png",
+    "assets/aivara-bio-structure.svg",
+    "assets/aivara-bio-workbench.png",
     "assets/aivara-logo.png",
     "assistant-status.js",
     "assistant.css",

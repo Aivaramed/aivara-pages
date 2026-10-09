@@ -1,33 +1,33 @@
 const translations = {
   zh: {
     assistantNav: 'AivaraAgent', assistantTitle: '与 AivaraAgent 对话', assistantDescription: '您的专属智能工作空间',
-    openBio: '打开 AivaraBio', bioKicker: '交互式研究工具',
+    openBio: '打开 AivaraBio', suiteBioLink: '在 AivaraBio 中上传并查看三维结构', bioKicker: '交互式研究工具',
     bioDescription: '在浏览器中准备蛋白结构预测与设计任务，查看状态、结构与结果。连接 AlphaFold 3 与 BindCraft，使用现有 Aivara 账号登录。',
     bioNote: '仅供研究使用。任务由用户明确提交，结果需专业复核。',
-    title: 'AivaraSuite | 核医学精准诊疗软件', description: 'AivaraSuite 核医学精准诊疗软件：影像查看、配准融合、分割、定量及临床复核与报告。',
+    title: 'AivaraSuite | 影像分析与分子研究', description: 'AivaraSuite 连接核医学影像分析与分子研究：影像查看、定量、临床复核、蛋白结构可视化、预测与设计。',
     skip: '跳转至内容', navSuite: '套件', navSolutions: '产品', heroTitle: '让核医学影像分析<br><em>更加清晰、连贯</em>',
-    heroBody: '从影像查看与融合，到分割、定量及临床复核，AivaraSuite 将核医学分析工作流程汇于一处。',
+    heroBody: '从核医学影像分析到蛋白结构可视化、预测与设计，AivaraSuite 连接临床分析与分子研究。',
     exploreSuite: '了解 AivaraSuite', heroBottom: '精密影像 · 连贯分析', suiteKicker: '统一工作流程',
-    suiteIntro: '围绕核医学影像的关键环节，连接阅片、配准融合、分割、定量与临床复核报告。',
+    suiteIntro: 'Onco、Dosimetry、Cardio、Neuro 与 Bio：将影像查看、定量与临床复核连接到蛋白结构可视化、预测与设计。',
     step1: '影像查看', step2: '配准与融合', step3: '分割', step4: '定量', step5: '临床复核与报告',
-    solutionsKicker: '应用方向', solutionsTitle: '面向不同临床场景的分析模块', solutionsIntro: '查看每个模块的影像示例与主要分析环节。',
-    footerText: '核医学精准诊疗软件', backTop: '返回顶部 ↑',
-    suiteAlt: 'AivaraSuite 软件套件概览', productAlt: (name) => `${name} 影像分析示例`
+    solutionsKicker: '应用方向', solutionsTitle: '面向临床分析与分子研究的套件模块', solutionsIntro: '查看五个模块的影像与结构示例，以及各自的主要工作流程。',
+    footerText: '影像分析与分子研究软件', backTop: '返回顶部 ↑',
+    suiteAlt: 'AivaraSuite 五个模块：Onco、Dosimetry、Cardio、Neuro、Bio', productAlt: (name) => `${name} 影像分析示例`
   },
   en: {
     assistantNav: 'AivaraAgent', assistantTitle: 'Talk to AivaraAgent', assistantDescription: 'Your private intelligent workspace',
-    openBio: 'Open AivaraBio', bioKicker: 'Interactive research tools',
+    openBio: 'Open AivaraBio', suiteBioLink: 'Upload and explore 3D structures in AivaraBio', bioKicker: 'Interactive research tools',
     bioDescription: 'Prepare protein structure prediction and design jobs in your browser, then explore status, structures and results. Connect to AlphaFold 3 and BindCraft with your existing Aivara account.',
     bioNote: 'For research use only. Jobs require explicit submission; results require expert review.',
-    title: 'AivaraSuite | Precision Nuclear Medicine Software', description: 'AivaraSuite connects image viewing, registration and fusion, segmentation, quantification, and clinical review and reporting.',
+    title: 'AivaraSuite | Imaging & Molecular Research', description: 'AivaraSuite connects nuclear medicine imaging and molecular research: image analysis, clinical review, protein structure visualization, prediction and design.',
     skip: 'Skip to content', navSuite: 'Suite', navSolutions: 'Solutions', heroTitle: 'Nuclear medicine,<br><em>clearly connected</em>',
-    heroBody: 'From image viewing and fusion to segmentation, quantification, and clinical review, AivaraSuite brings the analysis workflow together.',
+    heroBody: 'From nuclear medicine image analysis to protein structure visualization, prediction and design, AivaraSuite connects clinical analysis and molecular research.',
     exploreSuite: 'Explore AivaraSuite', heroBottom: 'Precision imaging · Connected analysis', suiteKicker: 'One connected workflow',
-    suiteIntro: 'AivaraSuite connects the key steps in nuclear medicine imaging: viewing, registration and fusion, segmentation, quantification, and clinical review and reporting.',
+    suiteIntro: 'Onco, Dosimetry, Cardio, Neuro and Bio: connected tools for image viewing, quantification, clinical review, protein structures, prediction and design.',
     step1: 'Image viewing', step2: 'Registration & fusion', step3: 'Segmentation', step4: 'Quantification', step5: 'Clinical review & report',
-    solutionsKicker: 'Applications', solutionsTitle: 'Analysis for distinct clinical contexts', solutionsIntro: 'Explore imaging examples and the main analysis steps for each module.',
-    footerText: 'Precision nuclear medicine software', backTop: 'Back to top ↑',
-    suiteAlt: 'Overview of the AivaraSuite software suite', productAlt: (name) => `${name} imaging analysis example`
+    solutionsKicker: 'Applications', solutionsTitle: 'A suite for clinical analysis & molecular research', solutionsIntro: 'Explore imaging and structure examples, and the main workflows of all five modules.',
+    footerText: 'Imaging & molecular research software', backTop: 'Back to top ↑',
+    suiteAlt: 'AivaraSuite: Onco, Dosimetry, Cardio, Neuro and Bio', productAlt: (name) => `${name} imaging analysis example`
   }
 };
 
@@ -35,7 +35,8 @@ const products = {
   onco: { name: 'Onco', index: '01', accent: '#f37436', file: 'AivaraOnco', zh: { summary: '多示踪剂影像融合、病灶定量与纵向随访。', features: ['PSMA / FDG 多示踪剂融合对比', '可供临床编辑的辅助分割', '病灶定量分析与治疗反应可视化'] }, en: { summary: 'Multi-tracer image fusion, lesion quantification, and longitudinal follow-up.', features: ['PSMA / FDG fusion comparison', 'Clinically editable assisted segmentation', 'Lesion quantification and therapy response visualization'] } },
   dose: { name: 'Dosimetry', index: '02', accent: '#a947e9', file: 'AivaraDosimetry', zh: { summary: '连接多时间点影像处理与吸收剂量评估。', features: ['多时间点影像配准', '器官与靶区分割及临床复核', '时间-活度曲线、吸收剂量与报告'] }, en: { summary: 'From multi-timepoint imaging to absorbed dose assessment.', features: ['Multi-timepoint image registration', 'Organ and target segmentation with clinician review', 'Time–activity curves, absorbed dose, and reporting'] } },
   cardio: { name: 'Cardio', index: '03', accent: '#ed433a', file: 'AivaraCardio', zh: { summary: '面向心血管影像的分割、摄取评估与区域定量。', features: ['主动脉辅助分割', '血管摄取评估', '全主动脉及区域定量分析'] }, en: { summary: 'Segmentation, uptake assessment, and regional quantification for cardiovascular imaging.', features: ['Assisted aortic segmentation', 'Vascular uptake assessment', 'Whole-aorta and regional quantification'] } },
-  neuro: { name: 'Neuro', index: '04', accent: '#17a9bc', file: 'AivaraNeuro', zh: { summary: '融合 PET/MR 影像，支持脑区分割与参考区定量。', features: ['PET/MR 三平面融合', '脑区自动分割', 'SUVR 参考区定量与三维皮层分区'] }, en: { summary: 'PET/MR fusion, brain segmentation, and reference-region quantification.', features: ['PET/MR tri-modal fusion', 'Brain region segmentation', 'SUVR reference-region analysis and 3D cortical parcellation'] } }
+  neuro: { name: 'Neuro', index: '04', accent: '#17a9bc', file: 'AivaraNeuro', zh: { summary: '融合 PET/MR 影像，支持脑区分割与参考区定量。', features: ['PET/MR 三平面融合', '脑区自动分割', 'SUVR 参考区定量与三维皮层分区'] }, en: { summary: 'PET/MR fusion, brain segmentation, and reference-region quantification.', features: ['PET/MR tri-modal fusion', 'Brain region segmentation', 'SUVR reference-region analysis and 3D cortical parcellation'] } },
+  bio: { name: 'Bio', index: '05', accent: '#159451', image: 'aivara-bio-structure.svg', zh: { summary: '上传 PDB / mmCIF，查看交互式三维结构，开展蛋白结构预测与设计。', features: ['蛋白与分子结构的旋转、缩放与链分析', 'AlphaFold 3 结构预测与 BindCraft 设计', '任务状态、结构与结果导出；使用现有 Aivara 账号'] }, en: { summary: 'Upload PDB / mmCIF files, explore interactive 3D structures, and work on protein prediction and design.', features: ['Rotate, zoom and explore molecular structures and chains', 'AlphaFold 3 prediction and BindCraft design', 'Job status, structures and result exports with your Aivara account'] } }
 };
 
 let language = localStorage.getItem('aivara-language') === 'en' ? 'en' : 'zh';
@@ -54,8 +55,12 @@ function renderProduct() {
   list.innerHTML = copy.features.map((feature) => `<li>${feature}</li>`).join('');
   list.style.setProperty('--accent', product.accent);
   const image = document.getElementById('product-image');
-  image.src = `./assets/${product.file}_${suffix}.webp`;
-  image.alt = translations[language].productAlt(`Aivara${product.name}`);
+  image.src = product.image ? `./assets/${product.image}` : `./assets/${product.file}_${suffix}.webp`;
+  image.width = product.image ? 860 : 1672;
+  image.height = product.image ? 670 : 941;
+  document.getElementById('product-logo').hidden = activeProduct !== 'bio';
+  document.getElementById('product-open').hidden = activeProduct !== 'bio';
+  image.alt = activeProduct === 'bio' ? (language === 'zh' ? 'AivaraBio 蛋白三维结构示例' : 'AivaraBio 3D protein structure example') : translations[language].productAlt(`Aivara${product.name}`);
   document.querySelectorAll('.solution-tab').forEach((button) => {
     const selected = button.dataset.product === activeProduct;
     button.classList.toggle('active', selected);
@@ -72,7 +77,7 @@ function renderLanguage() {
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     element.innerHTML = copy[element.dataset.i18n];
   });
-  document.getElementById('suite-image').src = `./assets/All Suite_${language === 'zh' ? '中文' : 'English'}.webp`;
+  document.getElementById('suite-image').src = `./assets/AivaraSuite_${language === 'zh' ? '中文' : 'English'}.svg`;
   document.getElementById('suite-image').alt = copy.suiteAlt;
   document.querySelectorAll('[data-lang]').forEach((button) => {
     const selected = button.dataset.lang === language;
