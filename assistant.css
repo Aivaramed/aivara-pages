@@ -1,4 +1,9 @@
 /* Extend the homepage brand without changing its product sections. */
+.bio-section{padding:0 0 90px;background:var(--pale)}
+.bio-card{display:flex;align-items:center;justify-content:space-between;gap:48px;padding:46px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(120deg,#fff,#eaf8ff)}
+.bio-copy{max-width:790px}.bio-copy h2{margin:0 0 20px;font-size:clamp(2.5rem,4vw,3.6rem);letter-spacing:-.05em}.bio-copy h2 span{color:#079fc3}.bio-copy p:not(.kicker){line-height:1.8;color:var(--muted)}.bio-copy .bio-note{font-size:.86rem;margin-bottom:0}
+.bio-open{flex-shrink:0;display:inline-flex;align-items:center;gap:22px;padding:17px 22px;border-radius:12px;background:var(--navy);color:white;font-weight:700}.bio-open:hover,.bio-open:focus-visible{background:#0a4c7b}
+@media(max-width:750px){.bio-section{padding-bottom:60px}.bio-card{align-items:stretch;flex-direction:column;gap:26px;padding:28px}.bio-open{align-self:flex-start}}
 .assistant-nav{display:inline-flex;align-items:center;justify-content:center;border:1px solid #5cabd1;border-radius:7px;padding:10px 16px;color:#d9f8ff;background:#0b4b7380;font-size:.9rem;white-space:nowrap}
 .assistant-nav:hover,.assistant-nav:focus-visible{background:#125b88;border-color:#86d9ee}
 .nav-inner{gap:30px}.main-nav{gap:28px}

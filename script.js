@@ -1,6 +1,9 @@
 const translations = {
   zh: {
-    assistantNav: 'AI 助手', assistantTitle: '与 Aivara 对话', assistantDescription: '您的专属 AI 助手',
+    assistantNav: 'AivaraAgent', assistantTitle: '与 AivaraAgent 对话', assistantDescription: '您的专属智能工作空间',
+    openBio: '打开 AivaraBio', bioKicker: '交互式研究工具',
+    bioDescription: '在浏览器中准备蛋白结构预测与设计任务，查看状态、结构与结果。连接 AlphaFold 3 与 BindCraft，使用现有 Aivara 账号登录。',
+    bioNote: '仅供研究使用。任务由用户明确提交，结果需专业复核。',
     title: 'AivaraSuite | 核医学精准诊疗软件', description: 'AivaraSuite 核医学精准诊疗软件：影像查看、配准融合、分割、定量及临床复核与报告。',
     skip: '跳转至内容', navSuite: '套件', navSolutions: '产品', heroTitle: '让核医学影像分析<br><em>更加清晰、连贯</em>',
     heroBody: '从影像查看与融合，到分割、定量及临床复核，AivaraSuite 将核医学分析工作流程汇于一处。',
@@ -12,7 +15,10 @@ const translations = {
     suiteAlt: 'AivaraSuite 软件套件概览', productAlt: (name) => `${name} 影像分析示例`
   },
   en: {
-    assistantNav: 'AI Assistant', assistantTitle: 'Talk to Aivara', assistantDescription: 'Your personal AI workspace',
+    assistantNav: 'AivaraAgent', assistantTitle: 'Talk to AivaraAgent', assistantDescription: 'Your private intelligent workspace',
+    openBio: 'Open AivaraBio', bioKicker: 'Interactive research tools',
+    bioDescription: 'Prepare protein structure prediction and design jobs in your browser, then explore status, structures and results. Connect to AlphaFold 3 and BindCraft with your existing Aivara account.',
+    bioNote: 'For research use only. Jobs require explicit submission; results require expert review.',
     title: 'AivaraSuite | Precision Nuclear Medicine Software', description: 'AivaraSuite connects image viewing, registration and fusion, segmentation, quantification, and clinical review and reporting.',
     skip: 'Skip to content', navSuite: 'Suite', navSolutions: 'Solutions', heroTitle: 'Nuclear medicine,<br><em>clearly connected</em>',
     heroBody: 'From image viewing and fusion to segmentation, quantification, and clinical review, AivaraSuite brings the analysis workflow together.',
